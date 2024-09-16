@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.tab {
+    flex: 0 0 50px; /* Задаем фиксированную ширину для номеров вкладок */
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+.tab-content {
+    display: none; /* Скрываем содержание */
+}
+
+.tab-content.active {
+    display: block; /* Показываем только активную вкладку */
+}
+
+.main_content {
+    border: 1px solid #ccc;
+    max-height: 100%;
+}
+
+.host{
+    justify-content: space-between;
+    display: flex;
+}
+
+.username{
+    justify-content: space-between;
+    display: flex;
+}
+
+.password{
+    display: flex;
+    justify-content: space-between;
+}
+
+.database{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+.json__input {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.title__content {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.apply__btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+}
+
+.apply__btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}

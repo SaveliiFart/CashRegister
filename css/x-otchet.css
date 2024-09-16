@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+h1.attention {
+    text-align: center;
+}
+
+h2.this_x_report {
+    text-align: center;
+}
+
+div.date {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.transaction {
+    display: flex;
+    justify-content: space-between;
+}
+
+span.transaction_type {
+    font-weight: bold;
+    width: 150px;
+}
+
+span.transaction_amount {
+    width: 100px;
+}
+
+div.total_line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 2px solid black;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+span.balance_start,
+span.turnover_sales,
+span.turnover_and_returns,
+span.key_indicators,
+span.total_revenue,
+span.commission_revenue,
+span.price_revenue,
+span.commission_terminals,
+span.new_clients,
+span.receipts_over_50_uah,
+span.result,
+span.total_without_accruals,
+span.salary_goods,
+span.goods_coefficient,
+span.service_salary,
+span.bonus,
+span.motivation,
+span.own,
+span.fine,
+span.without_comfort_zone_amounts,
+span.comfort_zone,
+span.multi_zone_comfort {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+}
+
+span.balance_start_money,
+span.cash1_money,
+span.non_cash1_money,
+span.everything_money1,
+span.cash_money,
+span.non_cash_money,
+span.everything_money,
+span.total_revenue_money,
+span.commission_revenue_money,
+span.price_revenue_money,
+span.commission_terminals_-,
+span.new_clients_-,
+span.receipts_over_50_uah_clients,
+span.total_without_accruals_money,
+span.salary_goods_money,
+span.goods_coefficient_money,
+span.service_salary_money,
+span.bonus_money,
+span.motivation_-,
+span.own_-,
+span.fine_-,
+span.without_comfort_zone_amounts_money,
+span.comfort_zone_-,
+span.multi_zone_comfort_- {
+    display: inline;
+    width: 100px;
+}
+
+span.result {
+    display: inline;
+    width: 200px;
+    font-weight: bold;
+}
+
+span.result+span {
+    display: inline;
+    margin-left: 100px;
+    /* Добавлен отступ между "Результат:" и "ПРЕМІЯ" */
+}

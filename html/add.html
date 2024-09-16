@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Додавання товару</title>
+  <link rel="stylesheet" type="text/css" href="../css/style-add.css">
+</head>
+
+<body>
+  <div class="main_add_menu">
+    <div class="title">Додавання товару</div>
+    <div class="id_strih">
+      <div class="id_strih_title">Штрих-код:</div>
+      <input placeholder="Напишіть штрих-код..." class="id_strih_input">
+    </div>
+    <div class="name">
+      <div class="name_title">Назва товару:</div>
+      <input placeholder="Напишіть назву товару..." class="name_input">
+    </div>
+    <div class="color">
+      <div class="color_title">Колір:</div>
+      <input placeholder="Напишіть колір..." class="color_input">
+    </div>
+    <div class="quality">
+      <div class="quality_title">Кількість товару:</div>
+      <input placeholder="Напишіть Кількість товару..." class="quality_input">
+    </div>
+    <div class="cena">
+      <div class="cena_title">Ціна товару:</div>
+      <input placeholder="Напишіть ціна товару..." class="cena_input">
+    </div>
+    <div class="model">
+      <div class="model_title">Бренд товару:</div>
+      <input placeholder="Напишіть бренд товару..." class="model_input">
+    </div>
+    <button class="btn_add" id="btn_add1">Додати</button>
+  </div>
+  <script src="../js-scripts/add-scripts.js"></script>
+</body>
+
+</html>

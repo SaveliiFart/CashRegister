@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 0; */
+}
+.receipt {
+    width: 100%;
+    /* border: 1px solid #000; */
+    padding: 5px;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.subheader {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.details {
+    font-size: 14px;
+}
+.details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.details table, .details th, .details td {
+    border: 1px solid black;
+}
+.details th, .details td {
+    padding: 5px;
+    text-align: left;
+}
+.total {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+.footer {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}

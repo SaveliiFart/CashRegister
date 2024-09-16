@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Налаштування</title>
+    <link rel="stylesheet" type="text/css" href="../css/style-settings.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="tabs">
+            <div class="tab" data-tab="tab1">База Даних</div>
+        </div>
+    </div>
+    
+    <div class="main_content">
+        <div class="tab-content active" id="tab1">
+            <div class="title__content">Database</div>
+            <div class="host">
+                <span class="title">Host</span>
+                <input class="json__input" id="Host">
+            </div>
+            <div class="username">
+                <span class="title">Username</span>
+                <input class="json__input" id="Username">
+            </div>
+            <div class="password">
+                <span class="title">Password</span>
+                <input class = "json__input" id= "Password">
+            </div>
+            <div class="database">
+                <span class="title">Database</span>
+                <input class = "json__input" id="Database">
+            </div>
+            <button class = "apply__btn" id= "Apply">Застосувати</button>
+        </div>
+    </div>
+
+    <script src="../js-scripts/settings-scripts.js"></script>
+</body>
+</html>

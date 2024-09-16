@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(151, 166, 250);
+}
+
+.main__window {
+    width: 100%;
+}
+
+.input_add {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-left: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: 0;
+}
+
+.input__add_quality {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    background-color: white;
+    padding-left: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 0;
+}
+
+.btn_add {
+    font-size: 18px;
+    font-weight: 700;
+    width: 80px;
+    height: 44px;
+    border-radius: 10px;
+    margin-left: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.btn_add:hover {
+    background-color: rgba(73, 99, 245, 0.3);
+    color: #fff;
+    cursor: pointer;
+}
+
+.list__box__conteiner {
+    overflow: auto;
+    position: fixed;
+    width: 1280px;
+    height: 952px;
+    margin-top: 30px;
+    background-color: white;
+    border: 2px solid #000;
+    overflow-y: scroll;
+}
+
+.list__box {
+    width: 1230px;
+}
+
+.list {
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-right: 150px;
+    cursor: pointer;
+}
+
+.list:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.list:first-child {
+    margin-top: 20px;
+}
+
+.list.selected {
+    color: red;
+}
+
+.inner_list {
+    display: inline-block;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.price_and_quality{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.price_multiplication_quality{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120px;
+    margin-top: 20px;
+}
+
+#btn__del {    
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    height: 80px;
+    width: 150px;
+    top: 30px;
+    left: 1300px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btn__del:hover {
+    background-color: rgb(235, 40, 40);
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn__clear{
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    height: 80px;
+    border: 0;
+    width: 150px;
+    top: 130px;
+    left: 987px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btn__clear:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#btn_client {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    height: 80px;
+    width: 154px;
+    top: 520px;
+    left: 684px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btn_client:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+#btn__posluga {    
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    height: 80px;
+    width: 154px;
+    top: 620px;
+    left: 526px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btn_percent{
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    height: 80px;
+    width: 150px;
+    top: 230px;
+    left: 833px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btn_percent:hover{
+    background-color: gold;
+    color: white;
+}
+
+#btn__finish {    
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    height: 80px;
+    width: 154px;
+    top: 720px;
+    left: 1152px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btn__finish:hover {
+    background-color: rgb(85, 176, 60);
+    color: white;
+    cursor: pointer;
+}
+
+#btn__posluga:hover {
+    background-color: rgb(85, 176, 60);
+    color: white;
+    cursor: pointer;
+}
+
+.list_price {
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    height: 80px;
+    width: 150px;
+    top: 740px;
+    left: 1306px;
+    background-color: rgb(85, 176, 60);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.main_search {
+    overflow: auto;
+    position: fixed;
+    left: 1480px;
+    top: 0;
+    height: 1059px;
+    width: 440px;
+    background-color: #4A50A6;
+    border-left:3px solid #000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.title_search {
+    position: relative;
+    left: -25px;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    left: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.input__search_shtrih {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    background-color: white;
+    padding: 0px 0px 0px 10px; 
+    width: 290px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+#btn__search{
+    padding-left: 10px;
+    border: 1px solid black;
+    height: 54px;
+    width: 115px;
+    cursor: pointer;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn__searchL:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: pointer;
+}
+
+.list_search {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.inner__search_list {
+    flex-grow: 1;
+    color: white;
+}
+
+.list_search:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.list_search:first-child {
+    margin-top: 20px;
+}
+
+.btn__delete{
+    margin-right: 20px;
+    text-align: center;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn__delete:hover {
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Налаштування</title>
+    <link rel="stylesheet" type="text/css" href="../css/client.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="tabs">
+            <div class="tab" data-tab="tab1">Додати клієнта</div>
+            <div class="tab" data-tab="tab2">Видалити клієнта</div>
+            <div class="tab" data-tab="tab3">Редагувати клієнта</div>
+            <div class="tab" data-tab="tab4">Пошук клієнта</div>
+        </div>
+    </div>
+    
+    <div class="main_content">
+        <div class="tab-content active" id="tab1">
+            <div class="title__content">Додати клієнта</div>
+            <div class="name">
+                <span class="title">Ім'я</span>
+                <input class="input_name" id="add_name">
+            </div>
+            <div class="surname">
+                <span class="title">Прізвище</span>
+                <input class="input_surname" id="add_surname">
+            </div>
+            <div class="phone">
+                <span class="title">Телефон</span>
+                <input class = "input_phone" id= "add_phone">
+            </div>
+            <button class = "btn_add" id="Add">Додати</button>
+        </div>
+        <div class="tab-content" id="tab2">
+            <div class="title__content">Видалити клієнта</div>
+            <div class="phone">
+                <span class="title">Телефон</span>
+                <input class = "input_phone" id= "del_phone">
+            </div>
+            <button class = "btn_del" id="Delete">Видалити</button>
+        </div>
+        <div class="tab-content" id="tab3">
+            <div class="title__content">Редагувати клієнта</div>
+            <div class="name">
+                <span class="title">Ім'я</span>
+                <input class="input_name" id="edit_name">
+            </div>
+            <div class="surname">
+                <span class="title">Прізвище</span>
+                <input class="input_surname" id="edit_surname">
+            </div>
+            <div class="phone">
+                <span class="title">Телефон</span>
+                <input class = "input_phone" id= "edit_phone">
+            </div>
+            <button class = "btn_edit" id="Edit">Застосувати</button>
+        </div>
+        <div class="tab-content" id="tab4">
+            <div class="title__content">Пошук клієнта</div>
+            <div class="phone">
+                <span class="title">Телефон</span>
+                <input class = "input_phone" id= "search_phone">
+            </div>
+            <div class="search_list">
+                <div class="result_title">Результат</div>
+                <div class="search_thingContainer">
+                </div>
+            </div>
+            <button class = "btn_search" id="Search">Пошук</button>
+        </div>
+    </div>
+
+    <script src="../js-scripts/client-script.js"></script>
+</body>
+</html>

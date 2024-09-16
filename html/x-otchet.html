@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>X-звіт</title>
+  <link rel="stylesheet" type="text/css" href="../css/x-otchet.css">
+</head>
+
+<body>
+    <h1 class="attention">Увага</h1>
+    <h2 class="this_x_report">Це X-Звіт</h2>
+    <div class="date">Дата</div>
+
+    <div>
+      <span class="balance_start">Залишок початок</span><span class="balance_start_money">30000</span>
+    </div>
+    <br>
+    <div>
+      <span class="turnover_sales">Оборот(Продаж):</span>
+      <br>
+      <div class="transaction">
+        <span class="transaction_type">Готівка</span><span class="transaction_amount_cash">10000</span>
+      </div>
+      
+      <div class="transaction">
+        <span class="transaction_type">Безготівкова</span><span class="transaction_amount_cashless">1000</span>
+      </div>
+      
+      <div class="total_line">
+        <span>Заголом:</span><span class="in_general_money">11000</span>
+      </div>
+    </div>
+    <br>
+    <div>
+      <span class="turnover_and_returns">Обіг із поверненнями:</span>
+      <br>
+      <div class="transaction">
+        <span class="transaction_type">Готівка</span><span id ="transaction_amount_cash" class="transaction_amount_cash">10000</span>
+      </div>
+      
+      <div class="transaction">
+        <span class="transaction_type">Безготівкова</span><span id="transaction_amount_cashless" class="transaction_amount_cashless">1000</span>
+      </div>
+      
+      <div class="total_line">
+        <span>Заголом:</span><span id="general_money" class="in_general_money">11000</span>
+      </div>
+    </div>
+    <br>
+    <div>
+      <span class="key_indicators">Основні показники:</span>
+      <br>
+      <span class="total_revenue">Загальний виторг</span><span class="total_revenue_money">10000</span>
+      <br>
+      <span class="commission_revenue">Виторг з коміс:</span><span class="commission_revenue_money">9000</span>
+      <br>
+      <span class="price_revenue">Вит. прайс:</span><span class="price_revenue_money">9000</span>
+      <br>
+      <span class="commission_terminals">Коміс. терм.</span><span class="commission_terminals_-">-</span>
+      <br>
+      <span class="new_clients">Нов. клієнтів:</span><span class="new_clients_-">-</span>
+      <br>
+      <span class="receipts_over_50_uah">Чеки > 50грн.:</span><span class="receipts_over_50_uah_clients">4</span>
+      <br>
+      <span class="result">Результат:</span><span>ПРЕМІЯ</span>
+      <br>
+      <span class="total_without_accruals">РАЗОМ без. нарахування:</span>
+      <br>
+      <span class="salary_goods">ЗП Товари:</span><span class="salary_goods_money">1000</span>
+      <br>
+      <span class="goods_coefficient">ЗП Тов.Коеф.:</span><span class="goods_coefficient_money">1000</span>
+      <br>
+      <br>
+      <span class="service_salary">ЗП Послуги:</span><span class="service_salary_money">500</span>
+      <br>
+      <span class="bonus">Премія:</span><span class="bonus_money">200</span>
+    </div>
+  <script src="../js-scripts/x-otchet-script.js"></script>
+</body>
+
+</html>

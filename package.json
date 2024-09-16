@@ -1,0 +1,21 @@
+{
+  "name": "kassa",
+  "version": "0.0.1",
+  "description": "Custom application for cash register",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Fartushnyi and Tkach",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.1",
+    "xlsx-populate": "^1.21.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.4"
+  }
+}

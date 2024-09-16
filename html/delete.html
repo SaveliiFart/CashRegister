@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Видалення товару</title>
+  <link rel="stylesheet" type="text/css" href="../css/style-delete.css">
+</head>
+
+<body>
+
+  <div class="main_add_menu">
+    <div class="title">Видалити товар</div>
+    <div class="id_strih">
+      <div class="id_strih_title">Штрих-код:</div>
+      <input placeholder="Напишіть штрих-код..." class="id_strih_input">
+    </div>
+    <div class="quality">
+      <div class="quality_title">Кількість товару:</div>
+      <input placeholder="Напишіть Кількість товару..." class="quality_input">
+    </div>
+    <button class="btn_add" id="btn_add1">Видалити</button>
+  </div>
+
+    <script src="../js-scripts/delete-scripts.js"></script>
+</body>
+
+</html>

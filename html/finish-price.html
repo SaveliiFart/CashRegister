@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Оплата</title>
+  <link rel="stylesheet" type="text/css" href="../css/stile-finish-price.css">
+</head>
+
+<body>
+  <div class="conteiner">
+    <header class="header">
+      <div class="header__title">Оплата</div>
+    </header>
+    <main class="main">
+      <div class="payment__method">
+        <div class="cash">Готівковий</div>
+        <div class="cashless">Безготівковий</div>
+      </div>
+      <div class="to__pay">
+        <div class="to__pay-contribution">
+          <div class="to__pay-title">Внесок:</div>
+          <input type="text" class="to__pay-input-contribution">
+        </div>
+        <div class="to__pay-payable">
+          <div class="to__pay-title">До оплати:</div>
+          <input type="text" class="to__pay-input-payable" readonly>
+        </div>
+      </div>
+      <div class="rest">
+        <input type="text" class="rest-input" readonly>
+      </div>
+      <div class="button">
+        <button id="btn_calc" class="button-calculate">Розрахувати</button>
+        <button id="btn_close" class="button-close">Завершити</button>
+      </div>
+    </main>
+  <script src="../js-scripts/finish-price-scripts.js"></script>
+</body>
+
+</html>

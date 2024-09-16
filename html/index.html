@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Касса</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+  <div class="main__window">
+    <div class="window">
+      <div class="add__thing">
+        <input class="input_add" placeholder="Напишіть штрих-код...">
+        <input class="input__add_quality" placeholder="Кол-во">
+        <button id="btn_add1" class="btn_add">ADD</button>
+      </div>
+      <div class="list__box__conteiner">
+      </div>
+      <button id="btn__del">Del</button>
+      <button id="btn__finish">Finish</button>
+      <button id="btn__clear">Clear</button>
+      <button id="btn_percent">%</button>
+      <button id="btn_client">Клієнт</button>
+      <button id="btn__posluga">Послуги</button>
+      <div class="list_price">Разом: 0</div>
+    </div>
+    <div class="main_search">
+      <div class="title_search">Search</div>
+      <input class="input__search_shtrih" placeholder="Штрих-Код/Назва">
+      <button id="btn__search">&#128269 Пошук</button>
+      <div class="list_thing_container">
+      </div>
+      </input>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    
+    <script src="../renderer.js"></script>
+</body>
+
+</html>

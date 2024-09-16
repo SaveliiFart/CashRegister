@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_add_menu {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.id_strih_title {
+    display: inline-block;
+}
+
+.id_strih_input {
+    margin-left: 61px;
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.name_title {
+    display: inline-block;
+
+}
+
+.name_input {
+    margin-left: 40px;
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.color_title {
+    display: inline-block;
+
+}
+
+.color_input {
+    margin-left: 99px;
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.quality_title {
+    display: inline-block;
+
+}
+
+.quality_input {
+    margin-left: 20px;
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.cena_title {
+    display: inline-block;
+
+}
+
+.cena_input {
+    margin-left: 52px;
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.model_title {
+    display: inline-block;
+}
+
+.model_input {
+    margin-left: 38px;
+    width: 190px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.id_strih{
+    margin-bottom: 8px;
+}
+
+.name {
+    margin-bottom: 8px;
+}
+
+.color{
+    margin-bottom: 8px;
+}
+
+.quality{
+    margin-bottom: 8px;
+}
+
+.cena{
+    margin-bottom: 8px;
+}
+
+
+.btn_add {
+    width: 60%;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.btn_add:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}

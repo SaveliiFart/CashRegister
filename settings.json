@@ -1,0 +1,11 @@
+{
+  "Database_Settings": {
+    "host": "localhost",
+    "username": "test",
+    "password": "0000",
+    "database_name": "kassa"
+  },
+  "TimeSettings": {
+    "Olddate": "10012024"
+  }
+}
